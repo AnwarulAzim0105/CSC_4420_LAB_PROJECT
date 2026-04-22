@@ -1,0 +1,31 @@
+# Ignore compiled files
+*.o
+*.out
+*.exe
+a.out
+
+# Ignore build folders
+build/
+bin/
+obj/
+
+# Ignore macOS junk (you have __MACOSX)
+__MACOSX/
+.DS_Store
+
+# Ignore Linux temporary files
+*.swp
+*.swo
+
+# Ignore logs
+*.log
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# Ignore backup files
+*~
+
+# Ignore system files
+Thumbs.db
